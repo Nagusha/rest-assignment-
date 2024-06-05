@@ -33,12 +33,6 @@ interface Meter {
     readings: Reading[];
 }
 
-
-/*1. Create APIs for Providers create, get all, update and delete
-provider will
-```js
-    const provider = { "id" : "provider-name", "charge": 10}
-```*/
 let users: User[] = [];
 let providers: Provider[] = [
     { id: 1, name: "Electro", charge: 5 },
